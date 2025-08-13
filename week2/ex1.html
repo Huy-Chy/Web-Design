@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table , th, td {
+            border: 1px solid black;
+            border-collapse: collapse; /* this merges the borders so they don't double up */
+            padding: 8px;   /* Adds inside the cells */
+        }
+        th,td{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wellcome to my web</h1>
+        <nav>
+            <a href="#home">Home</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Hello, My name is Ching Norin</h1>
+        <p>I am a student in kpp high school and now i study at CADT.</p>
+        <ul>
+            <ul>my habbies : </ul>
+            <li>I like playing game</li>
+            <li>I like playing football</li>
+            <li>I like music</li>
+            <li>Study</li>
+        </ul>
+        <ul>Image Sunset</ul>
+        <img src="sunset.jpg" alt="Sunset.">
+        <a href="https://search.brave.com/images?q=sunset">Go to Google</a>
+        <h2>contect me</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" row="4" cols="50"></textarea><br><br>
+
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">sign up for our newsletter</label><br><br>
+
+            <input type="Submit" value="Submit">
+        </form>
+        <h2>My Skills</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skills</th>
+                    <th>Proficieny</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Beginner</td>
+            </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
